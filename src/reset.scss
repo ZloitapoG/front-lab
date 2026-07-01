@@ -13,9 +13,11 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+	background-color: rgba($color: black, $alpha: 1.0);
+}
 body {
-	line-height: 1.2;
-    background-color: $primary-color;
+	background-color: rgba($color: $primary-color, $alpha: 1.0);
 }
 table {
 	border-collapse: collapse;

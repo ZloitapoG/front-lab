@@ -1,2 +1,10 @@
 @import '_variables.scss';
 @import 'reset.scss';
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    width: 80%;
+    margin: 0 auto;
+}
